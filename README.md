@@ -55,3 +55,19 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+
+
+Commands
+------------
+
+
+```sh
+# Criando ambiente
+conda create -n siena_eeg_ecg python=3.8 --file requirements.txt
+
+# Ativando ambiente
+conda activate siena_eeg_ecg
+
+```
