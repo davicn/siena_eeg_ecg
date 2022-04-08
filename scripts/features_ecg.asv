@@ -1,9 +1,12 @@
-function  get_features(path)
-    df = parquetread(path);
-    cols = df.Properties.VariableNames;
+function get_features(path, label)
+    load([path]);
 
-    for n = 1:length(cols)-1
-        x =  table2array(df(:,cols(n)));
+    x = B_sem_crise;
+    
+   
+    
+   
+    
         var_(n) = var(x);
         skew(n) = skewness(x);
         eng(n) = sum(abs(x).^2);
@@ -24,5 +27,9 @@ function  get_features(path)
                kur_log_entropy, ...
                energy_log_entropy);
     
-    name = split(path, "/")
+    
+    parts = split(path, "\");
+    name = parts(1) + "\" + parts(2) + "\ecg_features\" + label + "\" + strrep(parts(end),'mat','parquet');
+    
+    parquetwrite(name, tt);
 end

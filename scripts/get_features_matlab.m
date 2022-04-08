@@ -1,30 +1,36 @@
-fs = 512;
-folder = "data/processed/batimentos/sem_crise/";
+clc; 
+clear all;
 
-for n = 1:5
-    path = folder + "PN00-" + n + ".parquet";
-    disp(path)
-    df = parquetread(path);
-    cols = df1.Properties.VariableNames;
-    
-    x =  table2array(df(:,cols(n)));
-    var_(n) = var(x);
-    skew(n) = skewness(x);
-    eng(n) = sum(abs(x).^2);
-    kur(n) = kurtosis(x);
-    log_(n) =  wentropy(x,'log energy');
-    med(n) = mean(x);
-    names = {'mean_log_entropy','var_log_entropy','skew_log_entropy','kur_log_entropy', 'energy_log_entropy'};
-    mean_log_entropy = [med + log_].';
-    var_log_entropy = [var_ + log_].';
-    skew_log_entropy = [skew + log_].';
-    kur_log_entropy = [kur + log_,].';
-    energy_log_entropy = [eng + log_].';
-    
-    tt = table(mean_log_entropy,var_log_entropy,skew_log_entropy,kur_log_entropy,energy_log_entropy);
-    disp(size(tt));
-    
-end
+fs = 512;
+folder = "data\processed\ecg_segments\com_crise\";
+n =1;
+% for n = 1:5
+file = folder + "PN00-" + n + ".mat";
+load([file]);
+% end
+%     disp(path)
+%     df = parquetread(path);
+%     cols = df1.Properties.VariableNames;
+%     
+%     x =  table2array(df(:,cols(n)));
+
+%     var_(n) = var(x);
+%     skew(n) = skewness(x);
+%     eng(n) = sum(abs(x).^2);
+%     kur(n) = kurtosis(x);
+%     log_(n) =  wentropy(x,'log energy');
+%     med(n) = mean(x);
+%     names = {'mean_log_entropy','var_log_entropy','skew_log_entropy','kur_log_entropy', 'energy_log_entropy'};
+%     mean_log_entropy = [med + log_].';
+%     var_log_entropy = [var_ + log_].';
+%     skew_log_entropy = [skew + log_].';
+%     kur_log_entropy = [kur + log_,].';
+%     energy_log_entropy = [eng + log_].';
+%     
+%     tt = table(mean_log_entropy,var_log_entropy,skew_log_entropy,kur_log_entropy,energy_log_entropy);
+%     disp(size(tt));
+%     
+% end
 
 %% Carregando dados
 %path_1 = 'data/processed/batimentos/sem_crise/PN00-2.parquet'; % label = 1
