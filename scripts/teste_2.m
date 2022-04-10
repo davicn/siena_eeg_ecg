@@ -1,30 +1,33 @@
 clc;
 clear all;
 
-file = '/media/davi/6A81-05CF/physionet.org/files/siena-scalp-eeg/1.0.0/PN00/PN00-1.edf';
+d = dotenv('./.env');
 
-infos = get(edfinfo(file));
+file = '/media/davi/6A81-05CF/DATALAKES/siena/raw/signals/PN00-1.parquet';
 
-signals = edfread(file);
+s = split(file, '/');
 
-name_parquet= strrep(infos.Filename,'edf','parquet');
+name_parquet = s{end};
 
-chs = signals.Properties.VariableNames;
+T = parquetread(file);
 
-for n = 1:length(infos.SignalLabels)
-    M(:,n) = cell2mat(signals{:,chs{n}});
-end
+chs = T.Properties.VariableNames;
 
-T = array2table(M, "VariableNames", chs); %table('Size',size(M),'VariableNames',chs
+%% ECG
 
+ecg_idx = find(contains( chs,'EKG'));
 
+ECG = array2table(T{:, ecg_idx}, "VariableNames", {chs{ecg_idx}});
 
-% T = timetable2table(signals);
+parquetwrite(d.env.DATALAKE_PATH + '/siena/raw/ecg/' + name_parquet, ECG);
 
-parquetwrite(name_parquet, T);
+%% EEG
 
+eeg_idx = find(contains( chs,'EEG'));
 
+EEG = array2table(T{:, eeg_idx}, "VariableNames", {chs{eeg_idx}});
 
+parquetwrite(d.env.DATALAKE_PATH + '/siena/raw/eeg/' + name_parquet, EEG);
 
 
 
