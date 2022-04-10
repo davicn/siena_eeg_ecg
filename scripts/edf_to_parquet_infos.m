@@ -1,20 +1,31 @@
 %% Função para extrair jnfos de edf e separar canais de EEG e EKG
 
 function edf_to_parquet_infos(file)
+
+    d = dotenv('../.env');
+    
     %% Extraindo e salvando infos
     infos = get(edfinfo(file));
 
     name_infos = strrep(infos.Filename,'edf','mat');
     
-    save('~/Documentos/siena_eeg_ecg/data/raw/infos/' + name_infos, 'infos');
+    save(d.env.DATALAKE_PATH + '/siena/raw/infos/' + name_infos, 'infos');
     
     %% Extraindo amostras e salvando 
     signals = edfread(file);
     
     name_parquet= strrep(infos.Filename,'edf','parquet');
     
-%     parquetwrite('~/Documentos/siena_eeg_ecg/data/raw/signals/' + name_parquet, signals);
-    parquetwrite(name_parquet, signals);
+    chs = signals.Properties.VariableNames;
+    
+    for n = 1:length(infos.SignalLabels)
+        M(:,n) = cell2mat(signals{:,chs{n}});
+    end
+
+    T = array2table(M, "VariableNames", chs);
+    
+    
+    parquetwrite(d.env.DATALAKE_PATH + '/siena/raw/signals/' + name_parquet, T);
 
     
     %% Extraindo e salvando
@@ -30,7 +41,7 @@ function edf_to_parquet_infos(file)
 %     disp(class(ekg));
     
     
-    name_parquet= strrep(infos.Filename,'edf','parquet');
+%    name_parquet= strrep(infos.Filename,'edf','parquet');
     
 %     parquetwrite('~/Documentos/siena_eeg_ecg/data/raw/EEG/' + name_parquet, 'eeg');
 %     parquetwrite('~/Documentos/siena_eeg_ecg/data/raw/ECG/' + name_parquet, 'ekg');
