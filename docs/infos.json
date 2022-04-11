@@ -1,0 +1,592 @@
+[
+    {
+        "patient_id": "PN00",
+        "age_years": 55,
+        "gender": "Male",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "R",
+        "eeg_channel": 29,
+        "number_seizures": 5,
+        "rec_time_minutes": 198,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN00-1.edf",
+                "registration_start": "19.39.33",
+                "registration_end": "20.22.58",
+                "seizure_start": "19.58.36",
+                "seizure_end": "19.59.46",
+                "total": 2605,
+                "seizure_start_sec": 1392,
+                "seizure_end_sec": 1462
+            },
+            {
+                "name": "PN00-2.edf",
+                "registration_start": "02.18.17",
+                "registration_end": "02.56.19",
+                "seizure_start": "02.38.37",
+                "seizure_end": "02.39.31",
+                "total": 2282,
+                "seizure_start_sec": 1008,
+                "seizure_end_sec": 1062
+            },
+            {
+                "name": "PN00-3.edf",
+                "registration_start": "18.15.44",
+                "registration_end": "18.57.13",
+                "seizure_start": "18.28.29",
+                "seizure_end": "18.29.29",
+                "total": 2489,
+                "seizure_start_sec": 1664,
+                "seizure_end_sec": 1724
+            },
+            {
+                "name": "PN00-4.edf",
+                "registration_start": "20.51.43",
+                "registration_end": "21.26.25",
+                "seizure_start": "21.08.29",
+                "seizure_end": "21.09.43",
+                "total": 2082,
+                "seizure_start_sec": 1002,
+                "seizure_end_sec": 1076
+            },
+            {
+                "name": "PN00-5.edf",
+                "registration_start": "22.22.04",
+                "registration_end": "22.57.27",
+                "seizure_start": "22.37.08",
+                "seizure_end": "22.38.15",
+                "total": 2123,
+                "seizure_start_sec": 1152,
+                "seizure_end_sec": 1219
+            }
+        ]
+    },
+    {
+        "patient_id": "PN03",
+        "age_years": 54,
+        "gender": "Male",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "R",
+        "eeg_channel": 29,
+        "number_seizures": 2,
+        "rec_time_minutes": 752,
+        "ekg": NaN,
+        "collections": [
+            {
+                "name": "PN03-1.edf",
+                "registration_start": "22.44.37",
+                "registration_end": "11.41.34",
+                "seizure_start": "09.29.10",
+                "seizure_end": "09.31.01",
+                "total": -39783,
+                "seizure_start_sec": 7833,
+                "seizure_end_sec": 7944
+            },
+            {
+                "name": "PN03-2.edf",
+                "registration_start": "21.31.04",
+                "registration_end": "08.47.04",
+                "seizure_start": "07.13.05",
+                "seizure_end": "07.15.18",
+                "total": -45840,
+                "seizure_start_sec": 5506,
+                "seizure_end_sec": 5639
+            }
+        ]
+    },
+    {
+        "patient_id": "PN05",
+        "age_years": 51,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 3,
+        "rec_time_minutes": 359,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN05-2.edf",
+                "registration_start": "06.46.02",
+                "registration_end": "09.19.47",
+                "seizure_start": "08.45.25",
+                "seizure_end": "08.46.00",
+                "total": 9225,
+                "seizure_start_sec": 2027,
+                "seizure_end_sec": 2062
+            },
+            {
+                "name": "PN05-3.edf",
+                "registration_start": "06.01.23",
+                "registration_end": "08.06.57",
+                "seizure_start": "07.55.19",
+                "seizure_end": "07.55.49",
+                "total": 7534,
+                "seizure_start_sec": 668,
+                "seizure_end_sec": 698
+            },
+            {
+                "name": "PN05-4.edf",
+                "registration_start": "06.38.35",
+                "registration_end": "08.00.23",
+                "seizure_start": "07.38.43",
+                "seizure_end": "07.39.22",
+                "total": 4908,
+                "seizure_start_sec": 1261,
+                "seizure_end_sec": 1300
+            }
+        ]
+    },
+    {
+        "patient_id": "PN06",
+        "age_years": 36,
+        "gender": "Male",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 5,
+        "rec_time_minutes": 722,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PNO6-1.edf",
+                "registration_start": "04.21.22",
+                "registration_end": "07.01.37",
+                "seizure_start": "05.54.25",
+                "seizure_end": "05.55.29",
+                "total": 9615,
+                "seizure_start_sec": 3968,
+                "seizure_end_sec": 4032
+            },
+            {
+                "name": "PNO6-2.edf",
+                "registration_start": "21.11.29",
+                "registration_end": "00.41.49",
+                "seizure_start": "23.39.09",
+                "seizure_end": "23.40.18",
+                "total": -73780,
+                "seizure_start_sec": -82709,
+                "seizure_end_sec": -82640
+            },
+            {
+                "name": "PN06-3.edf",
+                "registration_start": "06.25.51",
+                "registration_end": "08.41.51",
+                "seizure_start": "08.10.26",
+                "seizure_end": "08.11.08",
+                "total": 8160,
+                "seizure_start_sec": 1843,
+                "seizure_end_sec": 1885
+            },
+            {
+                "name": "PNO6-4.edf",
+                "registration_start": "11.16.09",
+                "registration_end": "13.12.54",
+                "seizure_start": "12.55.08",
+                "seizure_end": "12.56.11",
+                "total": 7005,
+                "seizure_start_sec": 1003,
+                "seizure_end_sec": 1066
+            },
+            {
+                "name": "PN06-5.edf",
+                "registration_start": "13.24.41",
+                "registration_end": "15.04.43",
+                "seizure_start": "14.44.24",
+                "seizure_end": "14.45.08",
+                "total": 6002,
+                "seizure_start_sec": 1175,
+                "seizure_end_sec": 1219
+            }
+        ]
+    },
+    {
+        "patient_id": "PN07",
+        "age_years": 20,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 1,
+        "rec_time_minutes": 523,
+        "ekg": NaN,
+        "collections": [
+            {
+                "name": "PN07-1.edf",
+                "registration_start": "23.18.10",
+                "registration_end": "08.01.58",
+                "seizure_start": "05.25.49",
+                "seizure_end": "05.26.51",
+                "total": -54972,
+                "seizure_start_sec": 9307,
+                "seizure_end_sec": 9369
+            }
+        ]
+    },
+    {
+        "patient_id": "PN09",
+        "age_years": 27,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 3,
+        "rec_time_minutes": 410,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN09-1.edf",
+                "registration_start": "14.08.54",
+                "registration_end": "16.26.07",
+                "seizure_start": "16.09.43",
+                "seizure_end": "16.11.03",
+                "total": 8233,
+                "seizure_start_sec": 904,
+                "seizure_end_sec": 984
+            },
+            {
+                "name": "PN09-2.edf",
+                "registration_start": "15.02.09",
+                "registration_end": "17.21.02",
+                "seizure_start": "17.00.56",
+                "seizure_end": "17.01.55",
+                "total": 8333,
+                "seizure_start_sec": 1147,
+                "seizure_end_sec": 1206
+            },
+            {
+                "name": "PN09-3.edf",
+                "registration_start": "14.20.23",
+                "registration_end": "16.34.28",
+                "seizure_start": "16.20.44",
+                "seizure_end": "16.21.48",
+                "total": 8045,
+                "seizure_start_sec": 760,
+                "seizure_end_sec": 824
+            }
+        ]
+    },
+    {
+        "patient_id": "PN10",
+        "age_years": 25,
+        "gender": "Male",
+        "seizure": "FBTC",
+        "desc_seizure": "focal to bilateral tonic\u2013clonic ",
+        "localization": "F",
+        "lateralization": "Bilateral",
+        "eeg_channel": 20,
+        "number_seizures": 10,
+        "rec_time_minutes": 1002,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN10-1.edf",
+                "registration_start": "05.40.05",
+                "registration_end": "08.26.07",
+                "seizure_start": "07.45.50",
+                "seizure_end": "07.46.59",
+                "total": 9962,
+                "seizure_start_sec": 2348,
+                "seizure_end_sec": 2417
+            },
+            {
+                "name": "PN10-2.edf",
+                "registration_start": "09.30.15",
+                "registration_end": "11.52.29",
+                "seizure_start": "11.40.13",
+                "seizure_end": "11.40.43",
+                "total": 8534,
+                "seizure_start_sec": 706,
+                "seizure_end_sec": 736
+            },
+            {
+                "name": "PN10-3.edf",
+                "registration_start": "13.33.18",
+                "registration_end": "15.58.31",
+                "seizure_start": "15.43.53",
+                "seizure_end": "15.45.02",
+                "total": 8713,
+                "seizure_start_sec": 809,
+                "seizure_end_sec": 878
+            },
+            {
+                "name": "PN10-4.5.6.edf",
+                "registration_start": "12.11.21",
+                "registration_end": "16.48.49",
+                "seizure_start": "12.49.50",
+                "seizure_end": "12.49.55",
+                "total": 16648,
+                "seizure_start_sec": 14334,
+                "seizure_end_sec": 14339
+            },
+            {
+                "name": "PN10-4.5.6.edf",
+                "registration_start": "12.11.21",
+                "registration_end": "16.48.49",
+                "seizure_start": "14.00.25",
+                "seizure_end": "14.00.44",
+                "total": 16648,
+                "seizure_start_sec": 10085,
+                "seizure_end_sec": 10104
+            },
+            {
+                "name": "PN10-4.5.6.edf",
+                "registration_start": "12.11.21",
+                "registration_end": "16.48.49",
+                "seizure_start": "15.18.26",
+                "seizure_end": "15.19.23",
+                "total": 16648,
+                "seizure_start_sec": 5366,
+                "seizure_end_sec": 5423
+            },
+            {
+                "name": "PN10-7.8.9.edf",
+                "registration_start": "16.49.25",
+                "registration_end": "20.58.40",
+                "seizure_start": "17.35.13",
+                "seizure_end": "17.36.01",
+                "total": 14955,
+                "seizure_start_sec": 12159,
+                "seizure_end_sec": 12207
+            },
+            {
+                "name": "PN10-7.8.9.edf",
+                "registration_start": "16.49.25",
+                "registration_end": "20.58.40",
+                "seizure_start": "18.20.24",
+                "seizure_end": "18.20.42",
+                "total": 14955,
+                "seizure_start_sec": 9478,
+                "seizure_end_sec": 9496
+            },
+            {
+                "name": "PN10-7.8.9.edf",
+                "registration_start": "16.49.25",
+                "registration_end": "20.58.40",
+                "seizure_start": "20.24.48",
+                "seizure_end": "20.25.03",
+                "total": 14955,
+                "seizure_start_sec": 2017,
+                "seizure_end_sec": 2032
+            },
+            {
+                "name": "PN10-10.edf",
+                "registration_start": "08.45.22",
+                "registration_end": "11.08.07",
+                "seizure_start": "10.58.19",
+                "seizure_end": "10.58.33",
+                "total": 8565,
+                "seizure_start_sec": 574,
+                "seizure_end_sec": 588
+            }
+        ]
+    },
+    {
+        "patient_id": "PN11",
+        "age_years": 58,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "R",
+        "eeg_channel": 29,
+        "number_seizures": 1,
+        "rec_time_minutes": 145,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN11-.edf",
+                "registration_start": "11.31.25",
+                "registration_end": "13.56.02",
+                "seizure_start": "13.37.19",
+                "seizure_end": "13.38.14",
+                "total": 8677,
+                "seizure_start_sec": 1068,
+                "seizure_end_sec": 1123
+            }
+        ]
+    },
+    {
+        "patient_id": "PN13",
+        "age_years": 34,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 3,
+        "rec_time_minutes": 519,
+        "ekg": "yes",
+        "collections": [
+            {
+                "name": "PN13-1.edf",
+                "registration_start": "08.24.28",
+                "registration_end": "11.00.23",
+                "seizure_start": "10.22.10",
+                "seizure_end": "10.22.58",
+                "total": 9355,
+                "seizure_start_sec": 2245,
+                "seizure_end_sec": 2293
+            },
+            {
+                "name": "PN13-2.edf",
+                "registration_start": "06.55.02",
+                "registration_end": "09.30.14",
+                "seizure_start": "08.55.51",
+                "seizure_end": "08.56.56",
+                "total": 9312,
+                "seizure_start_sec": 1998,
+                "seizure_end_sec": 2063
+            },
+            {
+                "name": "PN13-3.edf",
+                "registration_start": "12.00.01",
+                "registration_end": "15.28.48",
+                "seizure_start": "14.05.54",
+                "seizure_end": "14.08.25",
+                "total": 12527,
+                "seizure_start_sec": 4823,
+                "seizure_end_sec": 4974
+            }
+        ]
+    },
+    {
+        "patient_id": "PN14",
+        "age_years": 49,
+        "gender": "Male",
+        "seizure": "WIAS",
+        "desc_seizure": "focal onset without impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 4,
+        "rec_time_minutes": 1408,
+        "ekg": NaN,
+        "collections": [
+            {
+                "name": "PN14-1.edf",
+                "registration_start": "11.44.58",
+                "registration_end": "13.56.06",
+                "seizure_start": "13.46.00",
+                "seizure_end": "13.46.27",
+                "total": 7868,
+                "seizure_start_sec": 579,
+                "seizure_end_sec": 606
+            },
+            {
+                "name": "PN14-2.edf",
+                "registration_start": "15.50.13",
+                "registration_end": "18.22.58",
+                "seizure_start": "17.54.52",
+                "seizure_end": "17.55.04",
+                "total": 9165,
+                "seizure_start_sec": 1674,
+                "seizure_end_sec": 1686
+            },
+            {
+                "name": "PN14-3.edf",
+                "registration_start": "16.17.45",
+                "registration_end": "06.57.40",
+                "seizure_start": "21.10.05",
+                "seizure_end": "21.10.46",
+                "total": -33605,
+                "seizure_start_sec": -51186,
+                "seizure_end_sec": -51145
+            },
+            {
+                "name": "PN14-4.edf",
+                "registration_start": "14.18.30",
+                "registration_end": "18.22.32",
+                "seizure_start": "15.49.33",
+                "seizure_end": "15.50.56",
+                "total": 14642,
+                "seizure_start_sec": 9096,
+                "seizure_end_sec": 9179
+            }
+        ]
+    },
+    {
+        "patient_id": "PN16",
+        "age_years": 41,
+        "gender": "Female",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "L",
+        "eeg_channel": 29,
+        "number_seizures": 2,
+        "rec_time_minutes": 303,
+        "ekg": "no",
+        "collections": [
+            {
+                "name": "PN16-1.edf",
+                "registration_start": "20.45.21",
+                "registration_end": "23.03.11",
+                "seizure_start": "22.45.05",
+                "seizure_end": "22.47.08",
+                "total": 8270,
+                "seizure_start_sec": 963,
+                "seizure_end_sec": 1086
+            },
+            {
+                "name": "PN16-2.edf",
+                "registration_start": "00.53.55",
+                "registration_end": "03.28.52",
+                "seizure_start": "03.16.49",
+                "seizure_end": "03.18.36",
+                "total": 9297,
+                "seizure_start_sec": 616,
+                "seizure_end_sec": 723
+            }
+        ]
+    },
+    {
+        "patient_id": "PN17",
+        "age_years": 42,
+        "gender": "Male",
+        "seizure": "IAS",
+        "desc_seizure": "focal onset impaired awareness",
+        "localization": "T",
+        "lateralization": "R",
+        "eeg_channel": 29,
+        "number_seizures": 2,
+        "rec_time_minutes": 308,
+        "ekg": "no",
+        "collections": [
+            {
+                "name": "PN17-1.edf",
+                "registration_start": "20.14.28",
+                "registration_end": "22.49.05",
+                "seizure_start": "22.34.48",
+                "seizure_end": "22.35.58",
+                "total": 9277,
+                "seizure_start_sec": 787,
+                "seizure_end_sec": 857
+            },
+            {
+                "name": "PN17-2.edf",
+                "registration_start": "13.52.18",
+                "registration_end": "16.25.10",
+                "seizure_start": "16.01.09",
+                "seizure_end": "16.02.32",
+                "total": 9172,
+                "seizure_start_sec": 1358,
+                "seizure_end_sec": 1441
+            }
+        ]
+    }
+]

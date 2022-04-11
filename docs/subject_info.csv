@@ -1,0 +1,15 @@
+patient_id, age_years, gender, seizure,desc_seizure, localization, lateralization, eeg_channel, number_seizures, rec_time_minutes,ekg
+PN00,55,Male,IAS,focal onset impaired awareness,T,R,29,5,198,yes
+PN01,46,Male,IAS,focal onset impaired awareness,T,L,29,2,809,
+PN03,54,Male,IAS,focal onset impaired awareness,T,R,29,2,752,
+PN05,51,Female,IAS,focal onset impaired awareness,T,L,29,3,359,yes
+PN06,36,Male,IAS,focal onset impaired awareness,T,L,29,5,722,yes
+PN07,20,Female,IAS,focal onset impaired awareness,T,L,29,1,523,
+PN09,27,Female,IAS,focal onset impaired awareness,T,L,29,3,410,yes
+PN10,25,Male,FBTC,focal to bilateral tonic–clonic ,F,Bilateral,20,10,1002,yes
+PN11,58,Female,IAS,focal onset impaired awareness,T,R,29,1,145,yes
+PN12,71,Male,IAS,focal onset impaired awareness,T,L,29,4,246,yes
+PN13,34,Female,IAS,focal onset impaired awareness,T,L,29,3,519,yes
+PN14,49,Male,WIAS,focal onset without impaired awareness,T,L,29,4,1408,
+PN16,41,Female,IAS,focal onset impaired awareness,T,L,29,2,303,no
+PN17,42,Male,IAS,focal onset impaired awareness,T,R,29,2,308,no
