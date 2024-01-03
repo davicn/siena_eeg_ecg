@@ -1,0 +1,64 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+appdirs = "==1.4.4"
+asttokens = {file = "../../../../../opt/conda/conda-bld/asttokens_1646925590279/work"}
+backcall = {file = "../../../../ktietz/src/ci/backcall_1611930011877/work"}
+certifi = "==2021.10.8"
+charset-normalizer = "==2.0.12"
+cycler = "==0.11.0"
+debugpy = {file = "../../../../../tmp/build/80754af9/debugpy_1637091799509/work"}
+decorator = {file = "../../../../../opt/conda/conda-bld/decorator_1643638310831/work"}
+entrypoints = "==0.3"
+executing = {file = "../../../../../opt/conda/conda-bld/executing_1646925071911/work"}
+findspark = "==2.0.1"
+fonttools = "==4.31.2"
+idna = "==3.3"
+ipykernel = {file = "../../../../conda/feedstock_root/build_artifacts/ipykernel_1647271115035/work/dist/ipykernel-6.9.2-py3-none-any.whl"}
+ipython = {file = "../../../../../opt/conda/conda-bld/ipython_1646949508755/work"}
+jedi = {file = "../../../../../tmp/build/80754af9/jedi_1644297102865/work"}
+jinja2 = "==3.1.1"
+jupyter-client = {file = "../../../../../opt/conda/conda-bld/jupyter_client_1643638337975/work"}
+jupyter-core = {file = "../../../../../tmp/build/80754af9/jupyter_core_1646976314572/work"}
+kiwisolver = "==1.4.2"
+markupsafe = "==2.1.1"
+matplotlib = "==3.5.1"
+matplotlib-inline = {file = "../../../../../tmp/build/80754af9/matplotlib-inline_1628242447089/work"}
+mne = "==1.0.0"
+nest-asyncio = {file = "../../../../../tmp/build/80754af9/nest-asyncio_1613680548246/work"}
+numpy = "==1.22.3"
+packaging = "==21.3"
+pandas = "==1.4.1"
+parso = {file = "../../../../../opt/conda/conda-bld/parso_1641458642106/work"}
+pexpect = {file = "../../../../../tmp/build/80754af9/pexpect_1605563209008/work"}
+pickleshare = {file = "../../../../../tmp/build/80754af9/pickleshare_1606932040724/work"}
+pillow = "==9.0.1"
+pooch = "==1.6.0"
+prompt-toolkit = {file = "../../../../../tmp/build/80754af9/prompt-toolkit_1633440160888/work"}
+psutil = {file = "../../../../../tmp/build/80754af9/psutil_1612297992929/work"}
+ptyprocess = {file = "../../../../../tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl"}
+pure-eval = {file = "../../../../../opt/conda/conda-bld/pure_eval_1646925070566/work"}
+pyarrow = "==7.0.0"
+pygments = {file = "../../../../../opt/conda/conda-bld/pygments_1644249106324/work"}
+pyparsing = "==3.0.7"
+python-dateutil = {file = "../../../../../tmp/build/80754af9/python-dateutil_1626374649649/work"}
+python-dotenv = "==0.20.0"
+pytz = "==2022.1"
+pyzmq = {file = "../../../../../tmp/build/80754af9/pyzmq_1638434985866/work"}
+requests = "==2.27.1"
+scipy = "==1.8.0"
+six = {file = "../../../../../tmp/build/80754af9/six_1644875935023/work"}
+stack-data = {file = "../../../../../opt/conda/conda-bld/stack_data_1646927590127/work"}
+tornado = {file = "../../../../../tmp/build/80754af9/tornado_1606942317143/work"}
+tqdm = "==4.63.1"
+traitlets = {file = "../../../../../tmp/build/80754af9/traitlets_1636710298902/work"}
+urllib3 = "==1.26.9"
+wcwidth = {file = "../../../../../Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
